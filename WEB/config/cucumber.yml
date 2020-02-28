@@ -1,0 +1,3 @@
+default: --no-source --color --format pretty
+smoke: --tags @primeiro,@segundo
+regressao: --tags @primeiro,@segundo,@terceiro -f html -o html_report.html
